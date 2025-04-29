@@ -6,7 +6,7 @@ import { ChevronRight, Heart, Star, Trash2 } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { useToast } from "@/components/ui/use-toast"
+import { useToast } from "@/hooks/use-toast"
 
 export default function WishlistPage() {
   const { toast } = useToast()

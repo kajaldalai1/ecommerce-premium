@@ -1,3 +1,11 @@
+/**
+ * Email Service
+ *
+ * This service handles sending various types of emails for the ecommerce platform.
+ * In a real application, this would integrate with an email service provider like
+ * SendGrid, Mailchimp, AWS SES, etc.
+ */
+
 export interface EmailOptions {
   to: string
   subject: string
